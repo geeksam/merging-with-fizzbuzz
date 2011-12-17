@@ -1,4 +1,4 @@
-(1...100).each do |i|
+(1..100).each do |i|
   case
   when (i % 3).zero?
     puts "Fizz!"
